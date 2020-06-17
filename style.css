@@ -1,67 +1,208 @@
-body{
-	text-align: center;
-	background: #dcedc1;
+body {
+	background: #edf9fc;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
 
-h1 {
-	font-size: 40px;
-	font-family: 'Pacifico', cursive;
-}
-
-h2, h3, h4 {
-	/*color: blue;*/
-}
-
-.titles{
-	font-family: 'Pacifico', cursive;
-}
+.my-navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items : center;
+	background: linear-gradient(to right, #005792, #53cde2);
+	height: 60px;
+	font-family: 'Montserrat', sans-serif;
 
 }
-.color-blue{
-	color:blue;
-}
 
-ul, ol {
-	text-align: left;
-}
-
-.text-left{
-	text-align: left;
-}
-
-.avatar {
-	width: 300px;
-	height: 300px;
-	object-fit: cover;
+.logo {
 	border-radius: 50%;
-	box-shadow:5px 5px 10px grey;
+}
+.links { 
+	padding: 10px;
+ }
+.link {
+	color: white;
+	padding: 20px;
 }
 
-.production{
-	width:300px;
-	height:200px;
-	object-fit: cover;
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 180px 0;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
-/*div{
-	background:lightpink;
-}*/
-
-.cadre{
-	background:#a8e6cf;
-	margin:100px;
-	padding:50px;
-	border: 5px solid #ffaaa5;
-	border-radius: 8px;
-	box-shadow:5px 5px 10px grey;
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.bouton {
-	border :3px dashed black;
-	border-radius: 20px;
-	color : white;
-	background: lightpink;
-	box-shadow: 5px 5px 10px grey;
-	padding: 15px;
+.banner h3 {
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+	font-size : 20px;
+
+}
+
+.banner h2 {
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 3px white;
+	font-size : 14px;
+}
+
+
+.my-btn{
+	color: white;
+	padding: 8px 24px;
+	border-radius: 4px;
+	background: #d1f4fa;
+	color: black;
+	box-shadow: 3px 3px 5px black;
+
+
+}
+
+.cadre-1{
+	margin:50px 100px;
+	padding:30px;
+	border: 4px solid #d1f4fa;
+	border-radius: 4px;
+	box-shadow:4px 4px 8px #53cde2;
+	background: white;
+	text-align: center;
+}
+
+.title {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color: #005792;
+
+}
+
+.cadre-2 {
+	padding:30px;
+	background: #005792;
+	text-align: center;
+}
+
+.cadre-3 {
+	background: #d1f4fa;
+	text-align: center;
+	padding: 10px 50px;
+}
+
+.cadre-4 {
+	margin:50px 300px;
+	padding:20px;
+	border: 4px solid #d1f4fa;
+	box-shadow:4px 4px 15px #53cde2;
+	background: white;
+	text-align: center;
+}
+
+.title-dark {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+} 
+
+.texte-blanc {
+	color: white;
+}
+
+.font-liste {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size : 30px;
+	text-align: ;
+	
+
+}
+
+.affiches {
+	display: flex;
+	justify-content: space-around;
+	margin:100px ;
+}
+
+.photo-affiche {
+	width: 300px;
+	height: 400px; 
+	object-fit: cover; 
+	box-shadow:4px 4px 15px #005792;
+}
+
+.footer {
+  background: linear-gradient(to right, #53cde2,#005792 );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: red;
+}
+
+.footer-copyright {
+	color: white;
+}
+
+.my-btn2 {
+	color: white;
+	padding: 8px 24px;
+	border-radius: 4px;
+	background: #005792;
+	color: black;
+}
+
+.modal-body {
+	color: black;
+}
+
+.btn {
+	background: white;
+	color: #005792;
+	border-radius: 6px;
+	border: none;
+
+}
+
+.btn:hover {
+	background: #005792;
+}
+
+
+
+.fa-linkedin {
+	color:#005792 ;
+	font-size: 30px;
+}
+
+.liste {
+	text-align: center;
+	display: flex;
+	justify-content: center;
 }

@@ -2,54 +2,146 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Mon 1er site</title>
-	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+	<title>Studios Ghibli</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
-	<div class="cadre">
-		<h1 class="color-blue titles">Recette Mojito</h1>
 
-		<img src="images/mojito.jpg" alt="image de cocktail" width="300px" class="avatar">
-		 <br>
-		 <a href="https://www.marmiton.org/recettes/recette_muffins-tres-simples_166385.aspx" target="_blank" class="bouton">En savoir plus</a>
+ 	<!-- DÉBUT DE LA NAVBAR -->
+  	<div class="my-navbar"> 
+  		<img src="images/logo.png" alt="logo" width="60px" class="logo">
+  		<div class="links">
+			<a href="#C'est-quoi?" class="link">C'EST QUOI ?</a>
+	  		<a href="#top3" class="link">TOP 3</a>
+	  		<a href="#musée" class="link">MUSÉE GHIBLI</a>
+
+ <!-- Button trigger modal -->
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+        À propos
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p><div class="title">Ce site a été créé par Mina Marbach </div>
+				<br>
+				Étudiante en 2ème année à l'EFAP Bordeaux
+				<br>
+				<i>Prête à développer un logiciel pour la NASA</i>
+              <br>
+              </p>
+              <div>
+                <a class="socials" href="https://www.linkedin.com/in/mina-marbach">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+  		</div>
+  	</div>
+	<!-- FIN DE LA NAVBAR -->
+
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/backgroundghibli.jpg);">
+	<div class="container">
+		<h1>STUDIOS GHIBLI</h1>
+		<h2>株式会社スタジオジブリ</h2>
+		<h3>Partez à la découverte des meilleurs films des Studios Ghibli, made in Japan !</h3>
 		<br>
-		<a href="https://www.facebook.com/" target="_blank"> Mon 1er lien </a>
-		<br>
-		<p>La légende raconte que l'histoire du mojito remonterait au début du xvie siècle (la date de naissance officieuse du prédécesseur du mojito est 1586) lorsque le corsaire explorateur anglais Francis Drake, entre deux pillages de <strong>La Havane</strong> , appréciait siroter des feuilles de menthe pilées avec du tafia (rhum industriel). 
-		<br>
-		Cette tradition explique que des clients actuels demandent dans certains bars « give me a Drake » (« donnez moi un Drake » en anglais)2.</p>
-		<i class="fas fa-laptop"></i>	
-		
-	</div class="cadre">
-
-		<iframe width="933" height="525" src="https://www.youtube.com/embed/NANdz-YKMUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-	<div class="cadre">
-		<h2 class="color-blue titles">Ingrédients</h2>
-
-		<ul>
-			<li>sucre</li>
-			<li>menthe</li>
-			<li>rhum</li>
-			<li>citron</li>
-		</ul>
-	</div>	
-
-	<div class="cadre text-left">
-		<h3 class="color-blue titles">Etapes</h3>
-		<ol>
-			<li>Laver la menthe</li>
-			<li>Couper le citron</li>
-		</ol>
-	</div>	
-
-	<div class="cadre">
-		<h3 class="color-blue titles">Vos préparations</h3>
-		<img src="images/production1.jpg" alt="mojito 1" class="production">
-		<img src="images/production2.jpg" alt="mojito 2" class="production">
-		<img src="images/production3.jpg" alt="mojito 3" class="production">
+			<a href="https://fr.wikipedia.org/wiki/Studio_Ghibli" target="_blanck" class="my-btn"><b>LEUR HISTOIRE</b></a>
+		</div>
 	</div>
+
+<div id="C'est-quoi?" class="cadre-1">
+	<p> <div class="title"> Il était une fois... </div>
+	<br>
+	Le Studio Ghibli Inc. est un studio d'animation japonais fondé par Hayao Miyazaki et Isao Takahata en 1985. Il produit des longs-métrages et courts-métrages d'animation, ainsi que, dans une moindre mesure, des téléfilms, des anime et des jeux vidéo. Le studio est connu principalement pour ses longs-métrages destinés à un large public et dont plusieurs ont remporté des succès auprès de la critique et du public, ainsi que de nombreuses récompenses. Le logo du studio est une représentation de Totoro, une créature apparue dans Mon voisin Totoro, l'un des films emblématiques du studio, sorti en 1988.
+	<br>
+	<i class="fas fa-film"></i></p>
+	
+</div>
+
+<div class="cadre-2">
+	<p><div class="title-dark">Découvez le célèbre univers musical de Ghibli </div>
+	<br>
+	<div class="texte-blanc">Cette compilation de 10 excellentes bandes originales des studios vous fera voyager. À écouter pour se relaxer...</div></p>
+	<iframe width="966" height="350" src="https://www.youtube.com/embed/xtAHgrNs7r4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+<p>
+	<div id="top3" class="title"> Mon top 3</div>
+	<br>
+	<div class="liste">
+		<ul>
+			<li class="font-liste">LE TOMBEAU DES LUCIOLES</li>
+			<li class="font-liste">LE VOYAGE DE CHIHIRO</li>
+			<LI class="font-liste">KIKI LA PETITE SORCIÈRE</LI>
+		</ul>
+	</div>
+</p>
+
+<div class="cadre-3">
+	<div class="affiches">
+			<img src="images/film1.jpg" class="photo-affiche">
+			<img src="images/film2.jpg" class="photo-affiche"> 
+			<img src="images/film3.jpg" class="photo-affiche">
+	</div>
+</div>
+
+<div id="musée" class="cadre-2">
+	<p><div class="title-dark">De passage au Japon? Visitez le musée !  </div>
+	<br>
+	<div class="texte-blanc">三鷹の森ジブリ美術館 - Musée Ghibli
+
+</div>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.218596550578!2d139.56824301525927!3d35.69623798019084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee34e5038c2d%3A0x4de155903f849205!2sMus%C3%A9e%20Ghibli!5e0!3m2!1sfr!2sfr!4v1592349728885!5m2!1sfr!2sfr" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+</div>
+
+<div class="cadre-4">
+	<p><div class="title"> Une question ?</div>
+		<br>
+		Tu peux me contacter, clique ci-dessous ! 
+		<br>
+		<br>
+		<a href="mailto:mina.marbach@efap.com" target="_blanck"><i class="fas fa-envelope my-btn2"></i></a> </p>
+</div>
+</div>
+
+<div class="typeform-widget" data-url="https://form.typeform.com/to/huqUji" style="width: 100%; height: 300px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=huqUji&utm_source=typeform.com-01E95HYK0WABRZJ4VCF23N6J8C-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+
+<div class="footer">
+  <div class="footer-links">
+    <a href="https://www.instagram.com/ghibliuk/" target="_blanck"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/Studioghiblifr" target="_blanck"><i class="fab fa-twitter"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+  </div>
+</div>
+
+
+<script src="https://kit.fontawesome.com/18ee24e4d3.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
